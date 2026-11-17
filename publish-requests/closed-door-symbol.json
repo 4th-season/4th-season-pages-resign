@@ -1,0 +1,85 @@
+{
+  "schema": "4th-season.public-article-request/v2",
+  "operation": "CONTENT_UPDATE",
+  "article_id": "CLOSED-DOOR-SYMBOL",
+  "slug": "closed-door-symbol",
+  "parent_map": "resign/modern",
+  "cover": "assets/resign/revisions/closed-door-symbol/RESIGN-CLOSED-DOOR-PUBLIC15-V2-20261117-001/cover.webp",
+  "marker": "RESIGN-CLOSED-DOOR-PUBLIC15-V2-20261117-001",
+  "job_id": "RESIGN-CLOSED-DOOR-PUBLIC15-V2-20261117-001",
+  "source_repo": "4th-season/4th-season-pages-resign",
+  "release_guard": {
+    "expected_registered": true,
+    "expected_article_blob_sha": "eba42d7db7e4f8a0219c62586fcb297896514e15",
+    "registry_snapshot_sha_for_audit": "f9d47e9c91f1eca3ba399dbfd4bbdf26dcad4b30",
+    "locked": {
+      "article_id": "CLOSED-DOOR-SYMBOL",
+      "canonical_path": "/closed-door-symbol",
+      "physical_path": "closed-door-symbol.html",
+      "parent_map": "resign/modern"
+    }
+  },
+  "content": {
+    "html": "revisions/closed-door-symbol/RESIGN-CLOSED-DOOR-PUBLIC15-V2-20261117-001.html",
+    "html_sha256": "23f30abe63f69f86bbe593339f0cd89dce7ed48383d130e3ac55786b627fbe8d",
+    "h1": "닫힌 문의 상징 — 닫힘은 언제 보호이고 언제 배제인가",
+    "h1_count": 1,
+    "h2_max": 10,
+    "assets": [
+      {
+        "path": "assets/resign/revisions/closed-door-symbol/RESIGN-CLOSED-DOOR-PUBLIC15-V2-20261117-001/cover.webp",
+        "sha256": "429ef7564229ec28477056d6cde7c8281e38f5c50d186fe1a60c83ed41b8be2c",
+        "bytes": 71484
+      },
+      {
+        "path": "assets/resign/revisions/closed-door-symbol/RESIGN-CLOSED-DOOR-PUBLIC15-V2-20261117-001/closed-door-01.webp",
+        "sha256": "1892fe6da971dcc932cc73a815cda3c6b211fb3d49ee4403087611bcdcca1a70",
+        "bytes": 21368
+      },
+      {
+        "path": "assets/resign/revisions/closed-door-symbol/RESIGN-CLOSED-DOOR-PUBLIC15-V2-20261117-001/closed-door-02.webp",
+        "sha256": "d61d77c2dcdc36457182c87f3c8fc3ef610c14e6563c06fe74d543c692fe098d",
+        "bytes": 61886
+      },
+      {
+        "path": "assets/resign/revisions/closed-door-symbol/RESIGN-CLOSED-DOOR-PUBLIC15-V2-20261117-001/closed-door-03.webp",
+        "sha256": "a323a6e3f62331c4647e110b65e7e46a16fef4784f951387dbbd5350e742e4f6",
+        "bytes": 23202
+      },
+      {
+        "path": "assets/resign/revisions/closed-door-symbol/RESIGN-CLOSED-DOOR-PUBLIC15-V2-20261117-001/closed-door-04.webp",
+        "sha256": "9ca365e5afabfed388a5cfce2675c00b59a7110aacde627092d52193e65ad60f",
+        "bytes": 62828
+      },
+      {
+        "path": "assets/resign/revisions/closed-door-symbol/RESIGN-CLOSED-DOOR-PUBLIC15-V2-20261117-001/closed-door-05.webp",
+        "sha256": "bbcb0fee8b96147587f78aef0c1040611abfae8a1a4309b3dd72bd21495574a5",
+        "bytes": 80330
+      },
+      {
+        "path": "assets/resign/revisions/closed-door-symbol/RESIGN-CLOSED-DOOR-PUBLIC15-V2-20261117-001/closed-door-06.webp",
+        "sha256": "42f410e7c073deae6588a8a0e23fa664a8a76c5994829d02b53661e8c1c41bfd",
+        "bytes": 30636
+      },
+      {
+        "path": "assets/resign/revisions/closed-door-symbol/RESIGN-CLOSED-DOOR-PUBLIC15-V2-20261117-001/closed-door-07.webp",
+        "sha256": "49f9d5d14fdea3d704a928f0594dd809bcaf5a03caf1458a1731b858636b29c2",
+        "bytes": 49834
+      },
+      {
+        "path": "assets/resign/revisions/closed-door-symbol/RESIGN-CLOSED-DOOR-PUBLIC15-V2-20261117-001/closed-door-08.webp",
+        "sha256": "5ee52dbcfe9d66572617bbbafff1c1299ad92be9a5bf560fa508b314f85d1d95",
+        "bytes": 41948
+      }
+    ]
+  },
+  "update_policy": {
+    "registry_count_delta": 0,
+    "hub_count_delta": 0,
+    "new_route_policy": "STAGED_ARTICLE_AND_ASSETS",
+    "retain_old_article_route": true,
+    "restore_previous_release_on_failure": true,
+    "require_direct_http_200": true,
+    "require_public_qa_pass": true
+  }
+}
