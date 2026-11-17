@@ -1,0 +1,85 @@
+{
+  "schema": "4th-season.public-article-request/v2",
+  "operation": "CONTENT_UPDATE",
+  "article_id": "WHITE-SYMBOL",
+  "slug": "white-symbol",
+  "job_id": "RESIGN-WHITE-SYMBOL-PUBLIC15-V2-20261117-001",
+  "marker": "RESIGN-WHITE-SYMBOL-PUBLIC15-V2-20261117-001",
+  "source_repo": "4th-season/4th-season-pages-resign",
+  "parent_map": "resign/nature-objects",
+  "cover": "assets/resign/revisions/white-symbol/RESIGN-WHITE-SYMBOL-PUBLIC15-V2-20261117-001/cover.webp",
+  "release_guard": {
+    "expected_registered": true,
+    "expected_article_blob_sha": "2f683d52434aadf3889632f07a8146e82ddc9df4",
+    "registry_snapshot_sha_for_audit": "f9d47e9c91f1eca3ba399dbfd4bbdf26dcad4b30",
+    "locked": {
+      "article_id": "WHITE-SYMBOL",
+      "canonical_path": "/white-symbol",
+      "physical_path": "white-symbol.html",
+      "parent_map": "resign/nature-objects"
+    }
+  },
+  "content": {
+    "html": "revisions/white-symbol/RESIGN-WHITE-SYMBOL-PUBLIC15-V2-20261117-001.html",
+    "html_sha256": "5f010a6f404b4588a6f6561d33b47f1c374e73bc4d831c8fb856137e48cf83dd",
+    "h1": "흰색의 상징 — 순결과 신성, 죽음과 애도는 왜 문화마다 달라지는가",
+    "h1_count": 1,
+    "h2_max": 10,
+    "assets": [
+      {
+        "path": "assets/resign/revisions/white-symbol/RESIGN-WHITE-SYMBOL-PUBLIC15-V2-20261117-001/cover.webp",
+        "sha256": "5935269088d5d4818553b1d4de8e054bb3759616d8f3849879fc77191981568f",
+        "bytes": 40002
+      },
+      {
+        "path": "assets/resign/revisions/white-symbol/RESIGN-WHITE-SYMBOL-PUBLIC15-V2-20261117-001/white-01.webp",
+        "sha256": "cc5cb5d42ebad0edc9ad943984a511cf718e66b1c46a51ee5040bdf9a8ddc635",
+        "bytes": 39720
+      },
+      {
+        "path": "assets/resign/revisions/white-symbol/RESIGN-WHITE-SYMBOL-PUBLIC15-V2-20261117-001/white-02.webp",
+        "sha256": "3f8b98d159473b56911539454b95029a9cdd0993cb1d8182b34f9a9d78b15937",
+        "bytes": 51092
+      },
+      {
+        "path": "assets/resign/revisions/white-symbol/RESIGN-WHITE-SYMBOL-PUBLIC15-V2-20261117-001/white-03.webp",
+        "sha256": "60a1dac906037b0e2c0ffc54cc71e1721f4f0faa117d3cf710746a3fe82cbb9e",
+        "bytes": 41398
+      },
+      {
+        "path": "assets/resign/revisions/white-symbol/RESIGN-WHITE-SYMBOL-PUBLIC15-V2-20261117-001/white-04.webp",
+        "sha256": "c0e6cb847fb13b40b178a5426f83aadc7995437353f366238f57ff0946b151e0",
+        "bytes": 61496
+      },
+      {
+        "path": "assets/resign/revisions/white-symbol/RESIGN-WHITE-SYMBOL-PUBLIC15-V2-20261117-001/white-05.webp",
+        "sha256": "32a06dfb029c295094f37088c6d6246e235853c783e8ae9362925d09eaa61d8a",
+        "bytes": 22060
+      },
+      {
+        "path": "assets/resign/revisions/white-symbol/RESIGN-WHITE-SYMBOL-PUBLIC15-V2-20261117-001/white-06.webp",
+        "sha256": "a643a72fb63b5db17cc102c3cf39c5250cb7f0ca73aeed730bae93d1e88463b0",
+        "bytes": 28860
+      },
+      {
+        "path": "assets/resign/revisions/white-symbol/RESIGN-WHITE-SYMBOL-PUBLIC15-V2-20261117-001/white-07.webp",
+        "sha256": "5e48ca81af41678d449b75d30c3e12136e8863860a4ebcdf648663fcdb436738",
+        "bytes": 26150
+      },
+      {
+        "path": "assets/resign/revisions/white-symbol/RESIGN-WHITE-SYMBOL-PUBLIC15-V2-20261117-001/white-08.webp",
+        "sha256": "f3fc9fdaa016aeb3765de7210bc7ea32556ce0f8f358e900e7cc442cbee476d5",
+        "bytes": 33806
+      }
+    ]
+  },
+  "update_policy": {
+    "registry_count_delta": 0,
+    "hub_count_delta": 0,
+    "new_route_policy": "STAGED_ARTICLE_AND_ASSETS",
+    "retain_old_article_route": true,
+    "restore_previous_release_on_failure": true,
+    "require_direct_http_200": true,
+    "require_public_qa_pass": true
+  }
+}
