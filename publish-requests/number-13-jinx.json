@@ -1,0 +1,85 @@
+{
+  "schema": "4th-season.public-article-request/v2",
+  "operation": "CONTENT_UPDATE",
+  "article_id": "NUMBER-13-JINX",
+  "slug": "number-13-jinx",
+  "parent_map": "resign/jinx-superstition",
+  "cover": "assets/resign/revisions/number-13-jinx/RESIGN-NUMBER13-JINX-PUBLIC15-V2-20261117-001/cover.webp",
+  "marker": "RESIGN-NUMBER13-JINX-PUBLIC15-V2-20261117-001",
+  "job_id": "RESIGN-NUMBER13-JINX-PUBLIC15-V2-20261117-001",
+  "source_repo": "4th-season/4th-season-pages-resign",
+  "release_guard": {
+    "expected_registered": true,
+    "expected_article_blob_sha": "aaadc26601cc56e34844c2b409b278de60589612",
+    "registry_snapshot_sha_for_audit": "f9d47e9c91f1eca3ba399dbfd4bbdf26dcad4b30",
+    "locked": {
+      "article_id": "NUMBER-13-JINX",
+      "canonical_path": "/number-13-jinx",
+      "physical_path": "number-13-jinx.html",
+      "parent_map": "resign/jinx-superstition"
+    }
+  },
+  "content": {
+    "html": "revisions/number-13-jinx/RESIGN-NUMBER13-JINX-PUBLIC15-V2-20261117-001.html",
+    "html_sha256": "d792908e70b0e35f9013af93efb47a4b543175ba23bcaca76eea3591db092d26",
+    "h1": "13의 징크스 — 왜 어떤 문화는 숫자 13을 피하게 되었나",
+    "h1_count": 1,
+    "h2_max": 10,
+    "assets": [
+      {
+        "path": "assets/resign/revisions/number-13-jinx/RESIGN-NUMBER13-JINX-PUBLIC15-V2-20261117-001/cover.webp",
+        "sha256": "89212f6155e6a7010c5342047261fba6c863ef413b1d13f10ca87b953f01fa67",
+        "bytes": 30304
+      },
+      {
+        "path": "assets/resign/revisions/number-13-jinx/RESIGN-NUMBER13-JINX-PUBLIC15-V2-20261117-001/number-13-jinx-01.webp",
+        "sha256": "c1b714f91f77413642aec77fdd776f1e7e90280674e9df50726dd9224c478802",
+        "bytes": 30422
+      },
+      {
+        "path": "assets/resign/revisions/number-13-jinx/RESIGN-NUMBER13-JINX-PUBLIC15-V2-20261117-001/number-13-jinx-02.webp",
+        "sha256": "95b383e80d0846629e11a93fad8487d7ddcea5c08394090831efdf3328f887c4",
+        "bytes": 28958
+      },
+      {
+        "path": "assets/resign/revisions/number-13-jinx/RESIGN-NUMBER13-JINX-PUBLIC15-V2-20261117-001/number-13-jinx-03.webp",
+        "sha256": "6fce91526221aab6b21751f1337a29173fb51e80f10d59c3372fd6fc918b181a",
+        "bytes": 74066
+      },
+      {
+        "path": "assets/resign/revisions/number-13-jinx/RESIGN-NUMBER13-JINX-PUBLIC15-V2-20261117-001/number-13-jinx-04.webp",
+        "sha256": "434891bd05c300b847d42ebbdc2a7fabab8e6b4a2dc8f9376fd49226e44d8ba9",
+        "bytes": 64046
+      },
+      {
+        "path": "assets/resign/revisions/number-13-jinx/RESIGN-NUMBER13-JINX-PUBLIC15-V2-20261117-001/number-13-jinx-05.webp",
+        "sha256": "6193db007980ac4f22cc2042d904c5d6ddcd8a7c13b4431925bfc5077f52ffb7",
+        "bytes": 40090
+      },
+      {
+        "path": "assets/resign/revisions/number-13-jinx/RESIGN-NUMBER13-JINX-PUBLIC15-V2-20261117-001/number-13-jinx-06.webp",
+        "sha256": "ac14414525676d205fc1f523a5f865806948aed20fb514fbb138a335b665bbb3",
+        "bytes": 58406
+      },
+      {
+        "path": "assets/resign/revisions/number-13-jinx/RESIGN-NUMBER13-JINX-PUBLIC15-V2-20261117-001/number-13-jinx-07.webp",
+        "sha256": "2b72dbc02606284fc1552efdc00319e23567584a03cda400c183d2e76224f2e1",
+        "bytes": 44950
+      },
+      {
+        "path": "assets/resign/revisions/number-13-jinx/RESIGN-NUMBER13-JINX-PUBLIC15-V2-20261117-001/number-13-jinx-08.webp",
+        "sha256": "6f5e6cfc0ffd0d137be3a0c964e7c1572319a2f12aff4d06365f995a1c79f523",
+        "bytes": 78762
+      }
+    ]
+  },
+  "update_policy": {
+    "registry_count_delta": 0,
+    "hub_count_delta": 0,
+    "new_route_policy": "STAGED_ARTICLE_AND_ASSETS",
+    "retain_old_article_route": true,
+    "restore_previous_release_on_failure": true,
+    "require_direct_http_200": true,
+    "require_public_qa_pass": true
+  }
+}
