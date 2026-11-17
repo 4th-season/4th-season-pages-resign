@@ -1,0 +1,85 @@
+{
+  "schema": "4th-season.public-article-request/v2",
+  "operation": "CONTENT_UPDATE",
+  "article_id": "HYDRANGEA-SYMBOL",
+  "slug": "hydrangea-symbol",
+  "parent_map": "resign/flowers",
+  "cover": "assets/resign/revisions/hydrangea-symbol/RESIGN-HYDRANGEA-PUBLIC15-V2-20261117-001/cover.webp",
+  "marker": "RESIGN-HYDRANGEA-PUBLIC15-V2-20261117-001",
+  "job_id": "RESIGN-HYDRANGEA-PUBLIC15-V2-20261117-001",
+  "source_repo": "4th-season/4th-season-pages-resign",
+  "release_guard": {
+    "expected_registered": true,
+    "expected_article_blob_sha": "40145afd0da32ed1e79119f10048e8d4f8fd0d42",
+    "registry_snapshot_sha_for_audit": "f9d47e9c91f1eca3ba399dbfd4bbdf26dcad4b30",
+    "locked": {
+      "article_id": "HYDRANGEA-SYMBOL",
+      "canonical_path": "/hydrangea-symbol",
+      "physical_path": "hydrangea-symbol.html",
+      "parent_map": "resign/flowers"
+    }
+  },
+  "content": {
+    "html": "revisions/hydrangea-symbol/RESIGN-HYDRANGEA-PUBLIC15-V2-20261117-001.html",
+    "html_sha256": "33ea4529218849e93ca6c2ad34ea537c8ac30f909bb46ce139fd7d4c4271fec5",
+    "h1": "수국 꽃말과 상징 — 색이 바뀌는 꽃에 왜 변덕과 진심이 함께 붙었나",
+    "h1_count": 1,
+    "h2_max": 10,
+    "assets": [
+      {
+        "path": "assets/resign/revisions/hydrangea-symbol/RESIGN-HYDRANGEA-PUBLIC15-V2-20261117-001/cover.webp",
+        "sha256": "a80a734841a003d133e935ae43e9a8243b4e6ad046e438b632fd3f2d2341a7aa",
+        "bytes": 72728
+      },
+      {
+        "path": "assets/resign/revisions/hydrangea-symbol/RESIGN-HYDRANGEA-PUBLIC15-V2-20261117-001/hydrangea-01.webp",
+        "sha256": "3ad65eff6b78d232a8fff7cdccaf6d441fd1231997841aa2ff7239ea4c885584",
+        "bytes": 71840
+      },
+      {
+        "path": "assets/resign/revisions/hydrangea-symbol/RESIGN-HYDRANGEA-PUBLIC15-V2-20261117-001/hydrangea-02.webp",
+        "sha256": "42a966c6630a7e9546ffdf6d555096f46cc599d4c78833f1245ef9960a7d074a",
+        "bytes": 126518
+      },
+      {
+        "path": "assets/resign/revisions/hydrangea-symbol/RESIGN-HYDRANGEA-PUBLIC15-V2-20261117-001/hydrangea-03.webp",
+        "sha256": "7a3038c316e86a9a8f6ff90147ee22568a7c2ba050371ea4e49edf7cc2396773",
+        "bytes": 71354
+      },
+      {
+        "path": "assets/resign/revisions/hydrangea-symbol/RESIGN-HYDRANGEA-PUBLIC15-V2-20261117-001/hydrangea-04.webp",
+        "sha256": "83833074110fc23fa6e31f3f89670a18878e9f8bffb48aae763844387b78866b",
+        "bytes": 57704
+      },
+      {
+        "path": "assets/resign/revisions/hydrangea-symbol/RESIGN-HYDRANGEA-PUBLIC15-V2-20261117-001/hydrangea-05.webp",
+        "sha256": "4773d8037c8d8b02104a62d1794bc638bdec58e738786ba147e7ce28843a5675",
+        "bytes": 60412
+      },
+      {
+        "path": "assets/resign/revisions/hydrangea-symbol/RESIGN-HYDRANGEA-PUBLIC15-V2-20261117-001/hydrangea-06.webp",
+        "sha256": "dc35a7301a7e5b58b7babadc2bd568fc4001687815f3c554892bd403cc7a6527",
+        "bytes": 80980
+      },
+      {
+        "path": "assets/resign/revisions/hydrangea-symbol/RESIGN-HYDRANGEA-PUBLIC15-V2-20261117-001/hydrangea-07.webp",
+        "sha256": "78ac71f89102bc96f4e9a94abfb725b642b15e80667ba004fed29864379b6d2c",
+        "bytes": 45686
+      },
+      {
+        "path": "assets/resign/revisions/hydrangea-symbol/RESIGN-HYDRANGEA-PUBLIC15-V2-20261117-001/hydrangea-08.webp",
+        "sha256": "13fe8aaecaf040be15a0d4617f7241851a0efbebd10d1d46ae2c7b5617b5b131",
+        "bytes": 115138
+      }
+    ]
+  },
+  "update_policy": {
+    "registry_count_delta": 0,
+    "hub_count_delta": 0,
+    "new_route_policy": "STAGED_ARTICLE_AND_ASSETS",
+    "retain_old_article_route": true,
+    "restore_previous_release_on_failure": true,
+    "require_direct_http_200": true,
+    "require_public_qa_pass": true
+  }
+}
